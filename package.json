@@ -1,0 +1,14 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-gyp configure && node-gyp build",
+    "postintall": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
